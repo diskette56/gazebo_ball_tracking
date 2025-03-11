@@ -240,7 +240,7 @@ class TakePhoto(Node):
 
         elif self.state == "ROTATE_180":
             text = "rotating 180 to clear ball"
-            self.rot.angular.z = 0.5
+            self.rot.angular.z = 0.3
             self.rot.linear.x = 0.0
 
         elif self.state == "RETURN_HOME":
